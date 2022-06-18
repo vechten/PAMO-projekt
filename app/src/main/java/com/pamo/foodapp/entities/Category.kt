@@ -1,4 +1,4 @@
-package entities
+package com.pamo.foodapp.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-import entities.converter.CategoryListConverter
+import com.pamo.foodapp.entities.converter.CategoryListConverter
 
 @Entity(tableName = "Category")
 data class Category(

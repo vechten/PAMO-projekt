@@ -1,11 +1,11 @@
-package repository
+package com.pamo.foodapp.repository
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import entities.CategoryItems
-import entities.MealsItems
+import com.pamo.foodapp.entities.CategoryItems
+import com.pamo.foodapp.entities.MealsItems
 
 @Dao
 interface RecipeRepository {

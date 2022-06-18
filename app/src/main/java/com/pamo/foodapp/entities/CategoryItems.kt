@@ -1,4 +1,4 @@
-package entities
+package com.pamo.foodapp.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
