@@ -9,11 +9,14 @@ import com.pamo.foodapp.entities.MealResponse
 import com.pamo.foodapp.interfaces.GetDataService
 import com.pamo.foodapp.retofitclient.RetrofitClientInstance
 import kotlinx.android.synthetic.main.activity_detail.*
+import pamo.foodapp.R
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-
+/**
+ * Details activity class
+ */
 class DetailActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

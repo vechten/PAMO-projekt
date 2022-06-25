@@ -9,7 +9,11 @@ import com.pamo.foodapp.entities.CategoryItems
 import com.pamo.foodapp.entities.MealsItems
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.coroutines.launch
+import pamo.foodapp.R
 
+/**
+ * Home screen activity class
+ */
 class HomeActivity : BaseActivity() {
     var arrMainCategory = ArrayList<CategoryItems>()
     var arrSubCategory = ArrayList<MealsItems>()
@@ -21,14 +25,10 @@ class HomeActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-
         getDataFromDb()
 
         mainCategoryAdapter.setClickListener(onCLicked)
         subCategoryAdapter.setClickListener(onCLickedSubItem)
-
-
-
 
     }
 

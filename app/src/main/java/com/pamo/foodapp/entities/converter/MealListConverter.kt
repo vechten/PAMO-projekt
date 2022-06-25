@@ -5,6 +5,9 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.pamo.foodapp.entities.MealsItems
 
+/**
+ * Converts Meal List into string for room database
+ */
 class MealListConverter {
     @TypeConverter
     fun fromCategoryList(category: List<MealsItems>):String?{

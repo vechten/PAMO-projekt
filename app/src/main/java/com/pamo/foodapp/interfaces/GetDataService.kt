@@ -7,6 +7,10 @@ import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 
+
+/**
+ * Interface for REST methods to get reponses for given URIs
+ */
 interface GetDataService {
     @GET("categories.php")
     fun getCategoryList(): Call<Category>

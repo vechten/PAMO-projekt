@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.pamo.foodapp.R
 import com.pamo.foodapp.entities.CategoryItems
 import kotlinx.android.synthetic.main.item_rv_main_category.view.*
+import pamo.foodapp.R
 
 class MainCategoryAdapter: RecyclerView.Adapter<MainCategoryAdapter.RecipeViewHolder>() {
 
