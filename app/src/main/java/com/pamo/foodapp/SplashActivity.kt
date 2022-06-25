@@ -7,14 +7,12 @@ import android.view.View
 import android.widget.Toast
 import com.pamo.foodapp.database.RecipeDatabase
 import com.pamo.foodapp.entities.Category
-import com.pamo.foodapp.entities.CategoryItems
 import com.pamo.foodapp.entities.Meal
 import com.pamo.foodapp.entities.MealsItems
 import com.pamo.foodapp.interfaces.GetDataService
 import com.pamo.foodapp.retofitclient.RetrofitClientInstance
 import kotlinx.android.synthetic.main.activity_splash.*
 import kotlinx.coroutines.launch
-import pamo.foodapp.R
 import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 import retrofit2.Call
