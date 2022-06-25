@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1555" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/drawable/btn_bg.xml" value="0.1555" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/drawable/btn_bg2.xml" value="0.1555" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/drawable/ic_back.xml" value="0.1555" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.1555" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/drawable/ic_fav_unfill.xml" value="0.1555" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1555" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/drawable/search_bg.xml" value="0.1555" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/layout/activity_detail.xml" value="0.1431159420289855" />
         <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/layout/activity_home.xml" value="0.1431159420289855" />
+        <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/layout/activity_splash.xml" value="0.1431159420289855" />
         <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/layout/item_rv_main_category.xml" value="0.15096251266464034" />
         <entry key="..\:/Users/hk190/Downloads/pamo/app/src/main/res/layout/item_rv_sub_category.xml" value="0.15096251266464034" />
         <entry key="..\:/Users/hk190/StudioProjects/RecipeApp2/app/src/main/res/drawable/btn_bg3.xml" value="0.1785" />
@@ -12,8 +22,6 @@
         <entry key="..\:/Users/hk190/StudioProjects/RecipeApp2/app/src/main/res/layout/activity_splash.xml" value="0.358695652173913" />
         <entry key="..\:/Users/hk190/StudioProjects/RecipeApp2/app/src/main/res/layout/item_rv_main_category.xml" value="0.358695652173913" />
         <entry key="..\:/Users/hk190/StudioProjects/RecipeApp2/app/src/main/res/layout/item_rv_sub_category.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/socha/OneDrive/Programowanie/PAMO-projekt/PAMO-projekt/app/src/main/res/layout/activity_detail.xml" value="0.2871376811594203" />
-        <entry key="..\:/Users/socha/OneDrive/Programowanie/PAMO-projekt/PAMO-projekt/app/src/main/res/layout/activity_splash.xml" value="0.2871376811594203" />
       </map>
     </option>
   </component>

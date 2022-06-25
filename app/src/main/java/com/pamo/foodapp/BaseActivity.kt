@@ -1,5 +1,7 @@
 package com.pamo.foodapp
 
+import android.app.job.JobInfo
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.coroutines.CoroutineScope
@@ -10,7 +12,7 @@ import kotlin.coroutines.CoroutineContext
 open class BaseActivity : AppCompatActivity(),CoroutineScope {
     private lateinit var job: Job
     override val coroutineContext:CoroutineContext
-        get() = job +Dispatchers.Main
+    get() = job +Dispatchers.Main
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
