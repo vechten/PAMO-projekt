@@ -10,6 +10,9 @@ import com.pamo.foodapp.entities.converter.CategoryListConverter
 import com.pamo.foodapp.entities.converter.MealListConverter
 import com.pamo.foodapp.repository.RecipeRepository
 
+/**
+ * Creates new database with given entities
+ */
 @Database(entities = [Recipes::class, CategoryItems::class, Category::class, Meal::class, MealsItems::class],version = 1,exportSchema = false)
 @TypeConverters(CategoryListConverter::class, MealListConverter::class)
 abstract class RecipeDatabase: RoomDatabase() {

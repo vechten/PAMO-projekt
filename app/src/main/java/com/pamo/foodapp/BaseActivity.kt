@@ -9,6 +9,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlin.coroutines.CoroutineContext
 
+/**
+ * Base activity class
+ */
 open class BaseActivity : AppCompatActivity(),CoroutineScope {
     private lateinit var job: Job
     override val coroutineContext:CoroutineContext

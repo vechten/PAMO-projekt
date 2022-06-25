@@ -3,6 +3,10 @@ package com.pamo.foodapp.entities
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
+
+/**
+ * Response model with meals from themealdb.com
+ */
 data class MealResponse(
     @Expose
     @SerializedName("meals")

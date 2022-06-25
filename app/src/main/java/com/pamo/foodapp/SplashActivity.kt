@@ -15,6 +15,7 @@ import com.pamo.foodapp.retofitclient.RetrofitClientInstance
 import kotlinx.android.synthetic.main.activity_splash.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
+import pamo.foodapp.R
 import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 import retrofit2.Call
@@ -22,6 +23,9 @@ import retrofit2.Callback
 import retrofit2.Response
 import java.util.jar.Manifest
 
+/**
+ * Main screen activity class
+ */
 class SplashActivity : BaseActivity(), EasyPermissions.RationaleCallbacks,
     EasyPermissions.PermissionCallbacks {
     private var READ_STORAGE_PERM = 123

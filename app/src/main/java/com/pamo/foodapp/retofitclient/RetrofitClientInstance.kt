@@ -3,7 +3,9 @@ package com.pamo.foodapp.retofitclient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-
+/**
+ * REST client to consume rest of given url
+ */
 class RetrofitClientInstance {
     companion object{
         val BASE_URL = "https://www.themealdb.com/api/json/v1/1/"
