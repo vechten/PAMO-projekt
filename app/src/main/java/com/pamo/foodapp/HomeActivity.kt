@@ -1,15 +1,12 @@
 package com.pamo.foodapp
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.pamo.foodapp.adapter.MainCategoryAdapter
 import com.pamo.foodapp.adapter.SubCategoryAdapter
 import com.pamo.foodapp.database.RecipeDatabase
-import com.pamo.foodapp.entities.Category
 import com.pamo.foodapp.entities.CategoryItems
 import com.pamo.foodapp.entities.MealsItems
-import com.pamo.foodapp.entities.Recipes
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.coroutines.launch
 

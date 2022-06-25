@@ -13,14 +13,12 @@ import com.pamo.foodapp.entities.MealsItems
 import com.pamo.foodapp.interfaces.GetDataService
 import com.pamo.foodapp.retofitclient.RetrofitClientInstance
 import kotlinx.android.synthetic.main.activity_splash.*
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.util.jar.Manifest
 
 class SplashActivity : BaseActivity(), EasyPermissions.RationaleCallbacks,
     EasyPermissions.PermissionCallbacks {
