@@ -10,6 +10,9 @@ import com.pamo.foodapp.entities.MealsItems
 import kotlinx.android.synthetic.main.item_rv_main_category.view.*
 import com.pamo.foodapp.R
 
+/**
+ * Provides view for each object in a collection of sub categories
+ */
 class SubCategoryAdapter: RecyclerView.Adapter<SubCategoryAdapter.RecipeViewHolder>() {
 
     var listener: SubCategoryAdapter.OnItemClickListener? = null

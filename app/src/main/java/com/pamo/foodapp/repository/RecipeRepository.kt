@@ -12,7 +12,7 @@ import com.pamo.foodapp.entities.MealsItems
  */
 @Dao
 interface RecipeRepository {
-    //suspend is from coroutine library
+    //coroutine library
     //it means that function can be paused and resumed at a later time
     @Query("SELECT * FROM categoryitems ORDER BY id DESC")
     suspend fun getAllCategory(): List<CategoryItems>

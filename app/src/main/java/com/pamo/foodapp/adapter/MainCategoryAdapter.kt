@@ -10,6 +10,9 @@ import com.pamo.foodapp.entities.CategoryItems
 import kotlinx.android.synthetic.main.item_rv_main_category.view.*
 import com.pamo.foodapp.R
 
+/**
+ * Provides view for each object in a collection of main categories
+ */
 class MainCategoryAdapter: RecyclerView.Adapter<MainCategoryAdapter.RecipeViewHolder>() {
 
     var listener: OnItemClickListener? = null

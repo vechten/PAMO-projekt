@@ -13,6 +13,7 @@ import kotlin.coroutines.CoroutineContext
 open class BaseActivity : AppCompatActivity(),CoroutineScope {
     private lateinit var job: Job
     override val coroutineContext:CoroutineContext
+    //Dispatcher ensures that debugging in newCoroutineContext function work properly
     get() = job +Dispatchers.Main
 
 
